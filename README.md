@@ -38,9 +38,11 @@ Repo structure:
 ```
 app.py               # Streamlit app
 requirements.txt
+2025NS04055ML_Assignment.ipynb  #training notebook
+ObesityDataSet_raw_and_data_sinthetic.csv    #dataset
 README.md
 test_data.csv        # held-out test split used in the app
-model/               # saved models (.joblib), metrics.csv, training notebook
+model/               # saved models (.joblib), metrics.csv
 ```
 
 ## d. Models used
