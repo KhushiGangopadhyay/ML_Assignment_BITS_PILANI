@@ -50,12 +50,13 @@ model/               # saved models (.joblib), metrics.csv
 ### Comparison table
 Multi-class metrics use weighted averaging; AUC is one-vs-rest (weighted).
 
-ML Model Name,Accuracy,AUC,Precision,Recall,F1,MCC
-Logistic Regression,0.6241,0.886,0.6087,0.6241,0.5925,0.5676
-Decision Tree,0.721,0.8558,0.7207,0.721,0.7197,0.6745
-kNN,0.7139,0.9359,0.7204,0.7139,0.6932,0.6717
-Naive Bayes,0.4988,0.8166,0.536,0.4988,0.4479,0.4387
-Support Vector Machine,0.7589,0.9507,0.7607,0.7589,0.7561,0.7192
+| ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
+|---|---|---|---|---|---|---|
+| Logistic Regression | 0.6241 | 0.886 | 0.6087 | 0.6241 | 0.5925 | 0.5676 |
+| Decision Tree | 0.721 | 0.8558 | 0.7207 | 0.721 | 0.7197 | 0.6745 |
+| kNN | 0.7139 | 0.9359 | 0.7204 | 0.7139 | 0.6932 | 0.6717 |
+| Naive Bayes | 0.4988 | 0.8166 | 0.536 | 0.4988 | 0.4479 | 0.4387 |
+| Support Vector Machine | 0.7589 | 0.9507 | 0.7607 | 0.7589 | 0.7561 | 0.7192 |
 
 
 ### Observations
